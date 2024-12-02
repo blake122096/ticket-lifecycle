@@ -34,11 +34,13 @@ Go to http://localhost/osTicket and open a new ticket. Let's create a ticket abo
 <br />
 
 <p>
-<img src="https://github.com/user-attachments/assets/61ae6ef0-e982-4ba3-8588-da6b03129add" height="80%" width="80%" alt="user portal"/>
+<img src="https://github.com/user-attachments/assets/80fad41a-dd1d-4bb7-8b78-1acef7339859"
+" height="80%" width="80%" alt="user portal"/>
 </p>
 <p>
 
-<img src="https://github.com/user-attachments/assets/eed67ceb-8e24-4e0a-bd92-a33c2b2c65f5" height="80%" width="80%" alt="ticket 1 created"/>
+<img src="https://github.com/user-attachments/assets/d9fb35f4-2af3-4680-b70d-996a22ad8e28"
+ height="80%" width="80%" alt="ticket 1 created"/>
 </p>
 <p>
  We will try and access this ticket with the John Doe user we created in the Post-Installation project https://github.com/jttn90/post-install-config. Looks like we can assign this ticket to others can set the SLA.
