@@ -43,14 +43,15 @@ Go to http://localhost/osTicket and open a new ticket. Let's create a ticket abo
  height="80%" width="80%" alt="ticket 1 created"/>
 </p>
 <p>
- We will try and access this ticket with the John Doe user we created in the Post-Installation project https://github.com/jttn90/post-install-config. Looks like we can assign this ticket to others can set the SLA.
+ We will try and access this ticket with the John Doe user we created in the Post-Installation project https://github.com/blake122096/post-install-config. Looks like we can assign this ticket to others can set the SLA.
 Online banking being down for a company needs to be looked at urgently so we can set the SLA to Sev-A. Although John could probably resolve this ticket since he's part of the support team, it is more appropriate
 to assign this to the Online Banking team. Then Jane from the Online Banking team and work the ticket to resolution and close the ticket.
 </p>
 <br />
 <p>
-<img src="https://github.com/user-attachments/assets/a7402634-c5b3-4934-8735-26a3fcf6da48" height="80%" width="80%" alt="john accessing ticket"/>
-<img src="https://i.imgur.com/sKLV7cd.png" height="80%" width="80%" alt="jane closing ticket"/>
+<img src="https://github.com/user-attachments/assets/d7a89796-3d31-47e7-8fea-43dfbe34a0f6" height="80%" width="80%" alt="john accessing ticket"/>
+<img src="https://github.com/user-attachments/assets/cc366648-57d0-4ae8-9e6e-a8153942b118"
+height="80%" width="80%" alt="jane closing ticket"/>
 </p>
 
 <p>
@@ -59,7 +60,7 @@ few users are affected. We also don't know if the update is due to a faulty patc
 set the SLA to Sev-C as it has minor impact on the business as a whole and can respond to the user to try restarting the computers and see if it works. If this actions resolves the problem, we can then close the ticket.
 
 </p>
-<img src="https://github.com/user-attachments/assets/30d6e70b-fb5c-4dab-acbb-c69bcb2c0950" height="80%" width="80%" alt="closed 2nd ticket"/>
+<img src="https://github.com/user-attachments/assets/da3366f6-87ed-4851-88d4-c0113db6ced8" height="80%" width="80%" alt="closed 2nd ticket"/>
 <br />
 
 <p>
@@ -70,7 +71,7 @@ Now for one final example, let's say the CFO of a company is unable to turn on h
 <br />
 
 <p>
-<img src="https://github.com/user-attachments/assets/200479b3-9c71-4b46-a0b9-e102b7be4522" height="80%" width"80%" alt="closed 3rd ticket"/>
+<img src="https://github.com/user-attachments/assets/aea9608f-f0ab-4f6c-bad5-52785da2f296" height="80%" width"80%" alt="closed 3rd ticket"/>
 </p>
 <br />
 <p>
