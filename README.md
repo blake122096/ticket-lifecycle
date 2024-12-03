@@ -23,13 +23,11 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 - Working the Issue
 - Resolution
 
-<h2>Working through Tickets</h2>
+<h2> Handling Tickets</h2>
 
 <p>
-In this project, we'll simulate some helpdesk tickets and work through them to resolution. Before we start anything, make sure the Maintenance department is deleted as tickets somehow get routed here. Login as an admin,
-hover over agents (big tab) and click on departments. Check the Maintenance department, click More then delete. Now we can begin.
-
-Go to http://localhost/osTicket and open a new ticket. Let's create a ticket about a user named Karen and is reporting that their company's mobile/online banking system is down.
+To begin simulating helpdesk ticket resolution, first remove the default "Maintenance" department: log in as admin, navigate to 
+Agents > Departments, select "Maintenance," and click More > Delete.  Then, create a new ticket at http://localhost/osTicket for user "Karen" reporting an outage of the company's online banking system.
 </p>
 <br />
 
@@ -43,9 +41,7 @@ Go to http://localhost/osTicket and open a new ticket. Let's create a ticket abo
  height="80%" width="80%" alt="ticket 1 created"/>
 </p>
 <p>
- We will try and access this ticket with the John Doe user we created in the Post-Installation project https://github.com/blake122096/post-install-config. Looks like we can assign this ticket to others can set the SLA.
-Online banking being down for a company needs to be looked at urgently so we can set the SLA to Sev-A. Although John could probably resolve this ticket since he's part of the support team, it is more appropriate
-to assign this to the Online Banking team. Then Jane from the Online Banking team and work the ticket to resolution and close the ticket.
+Access the ticket as agent "John Doe" (http://localhost/osTicket/scp). Assign the ticket to the "Online Banking" team and set the SLA to "Sev-A" to prioritize its resolution.  Then, log in as "Jane Doe" and resolve and close the ticket.
 </p>
 <br />
 <p>
@@ -55,18 +51,18 @@ height="80%" width="80%" alt="jane closing ticket"/>
 </p>
 
 <p>
-Let's say in another example a ticket is created saying that the Adobe software update is broken in the accounting department. John picks up the ticket and reads through it. The ticket is a bit vague and doesn't specify whether this issue affects the entire department or whether just a 
-few users are affected. We also don't know if the update is due to a faulty patch or Adobe itself. It's best to call the customer up in these cases and verify some details before working through the ticket. However, in this case we'll assume that only a few users were affected. In this case, we
-set the SLA to Sev-C as it has minor impact on the business as a whole and can respond to the user to try restarting the computers and see if it works. If this actions resolves the problem, we can then close the ticket.
+Imagine a new ticket arrives stating that the Adobe software update is not working correctly in the accounting department. John Doe picks up the ticket and notices that the information provided is incomplete. It's unclear how many users are affected and what the root cause of the problem is.
+
+    In such situations, it's best practice to gather more information from the user, perhaps through a phone call or email.  For this simulation, let's assume that after further investigation, John determines that only a few users are affected. Since the issue has a minor impact on the business, he sets the SLA to "Sev-C" and suggests restarting the affected computers as a first step. If this resolves the problem, he can then close the ticket.
 
 </p>
 <img src="https://github.com/user-attachments/assets/da3366f6-87ed-4851-88d4-c0113db6ced8" height="80%" width="80%" alt="closed 2nd ticket"/>
 <br />
 
 <p>
-Now for one final example, let's say the CFO of a company is unable to turn on his laptop. This can be quite serious if the CFO is unable to access critical documents for the business. However the issue may not be
-  as bad as it seems depending on how fast the laptop can be fixed for eg. bad battery (easy fix) vs failed inverter (harder fix). Let's set the priority level to emergency for now and say we may change this once we
-  get more information.
+Imagine a critical scenario: the CFO's laptop won't turn on.  This could have a significant impact on business operations if the CFO cannot access important files. However, the severity of the issue depends on the underlying cause. A simple battery replacement is a quick fix, while a failed inverter might require more extensive repairs.
+
+ To reflect the potential urgency, set the initial priority level to "Emergency."  This highlights the importance of the issue and ensures it receives immediate attention.  Once you gather more information about the cause of the malfunction, you can adjust the priority level accordingly.
 </p>
 <br />
 
@@ -75,11 +71,10 @@ Now for one final example, let's say the CFO of a company is unable to turn on h
 </p>
 <br />
 <p>
-After getting more information, it turns out the charger was broken so this is a relatively easy fix, we can set the SLA to Sev-B and once we get someone to find a new charger and verify that the laptop can be
-  powered on, we can close the ticket.
+After further investigation, the CFO's laptop issue is identified as a faulty charger.  Adjust the SLA to "Sev-B" and resolve the ticket once a replacement charger is provided and the laptop is confirmed to be working.
   
 </p>
 
 <p>
-Working through tickets takes a bit digging but asking the right questions and knowing who to escalate the ticket to can help immensely.
+Effective ticket resolution requires thorough investigation, targeted questioning, and proper escalation procedures.
 </p>
